@@ -1,0 +1,12 @@
+config/config.php
+storage/products/*
+!storage/products/.gitkeep
+storage/logs/*
+!storage/logs/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
