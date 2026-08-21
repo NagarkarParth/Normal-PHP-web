@@ -1,0 +1,7 @@
+# Shared hosting fallback: forward every request into public/ so the app can be
+# deployed to a document root that cannot be changed.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
