@@ -1,4 +1,4 @@
-# YBT Digital
+# ModzLab
 
 Digital product storefront and admin dashboard built with plain PHP 8.2+, MySQL/MariaDB and MDB UI Kit.
 Mobile-first responsive UI (app-style bottom navigation on phones, professional desktop layout), dark/light mode,
